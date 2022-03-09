@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/www"
+    "start": "nodemon nodejs/express-session.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/web-n/Nodejs#readme",
   "dependencies": {
+    "all": "^0.0.0",
     "cookie": "^0.4.2",
+    "express": "^4.17.3",
     "express-session": "^1.17.2",
     "sanitize-html": "^1.18.2"
   },
